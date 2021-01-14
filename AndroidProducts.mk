@@ -13,10 +13,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pine.mk
+    $(LOCAL_DIR)/lineage_olivewood.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pine-user \
-    lineage_pine-userdebug \
-    lineage_pine-eng
+    lineage_olivewood-user \
+    lineage_olivewood-userdebug \
+    lineage_olivewood-eng

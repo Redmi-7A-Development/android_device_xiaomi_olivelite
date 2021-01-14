@@ -21,17 +21,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from device.mk
-$(call inherit-product, device/xiaomi/pine/device.mk)
+$(call inherit-product, device/xiaomi/olivewood/device.mk)
 
-PRODUCT_DEVICE := pine
-PRODUCT_NAME := lineage_pine
+PRODUCT_DEVICE := olivewood
+PRODUCT_NAME := lineage_olivewood
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 7A
+PRODUCT_MODEL := Redmi 8A Dual
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="pine-user 10 QKQ1.191014.001 V11.0.5.0.QCMMIXM release-keys" \
-    PRODUCT_NAME="pine" \
-    TARGET_DEVICE="pine"
+    PRIVATE_BUILD_DESC="olivewood-user 10 QKQ1.191014.001 V11.0.5.0.QCMMIXM release-keys" \
+    PRODUCT_NAME="olivewood" \
+    TARGET_DEVICE="olivewood"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

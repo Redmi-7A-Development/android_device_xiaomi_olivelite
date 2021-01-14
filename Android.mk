@@ -14,6 +14,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), pine)
+ifeq ($(TARGET_DEVICE), olivewood)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

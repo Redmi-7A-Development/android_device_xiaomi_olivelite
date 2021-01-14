@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 cc_library_static {
-    name: "libinit_pine",
-    srcs: ["init_pine.cpp"],
+    name: "libinit_olivewood",
+    srcs: ["init_olivewood.cpp"],
     recovery_available: true,
     include_dirs: [
         "system/core/base/include",
