@@ -12,6 +12,8 @@
 # limitations under the License.
 #
 
+# Inherit from sdm439-common
+$(call inherit-product, device/xiaomi/sdm439-common/common.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1520
