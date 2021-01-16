@@ -25,6 +25,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Keylayouts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
+    $(LOCAL_PATH)/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl
+
 # Modules
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/pronto_wlan.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/pronto_wlan.ko
