@@ -13,10 +13,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_olivewood.mk
+    $(LOCAL_DIR)/lineage_olivelite.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    lineage_olivewood-user \
-    lineage_olivewood-userdebug \
-    lineage_olivewood-eng
+    lineage_olivelite-user \
+    lineage_olivelite-userdebug \
+    lineage_olivelite-eng

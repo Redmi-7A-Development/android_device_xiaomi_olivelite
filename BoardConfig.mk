@@ -15,21 +15,21 @@
 # Inherit from xiaomi sdm439-common
 -include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/olivewood
+DEVICE_PATH := device/xiaomi/olivelite
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olivewood
-TARGET_RECOVERY_DEVICE_MODULES := libinit_olivewood
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olivelite
+TARGET_RECOVERY_DEVICE_MODULES := libinit_olivelite
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := olivewood-perf_defconfig
+  TARGET_KERNEL_CONFIG := olivelite-perf_defconfig
   TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439
 endif
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := olivewood
+TARGET_OTA_ASSERT_DEVICE := olivelite
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296
